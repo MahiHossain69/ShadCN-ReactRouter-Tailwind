@@ -3,8 +3,8 @@ import Aboutban from "../assets/aboutban.png"
 import { Minus, Plus } from "lucide-react"
 import { Bar, BarChart, ResponsiveContainer } from "recharts"
 
-import { Button } from "@/components/ui/button"
-import { Skeleton } from "@/components/ui/skeleton"
+import { Button } from ".././Components/ui/button"
+import { Skeleton } from ".././Components/ui/skeleton"
 
 import {
     Drawer,
@@ -15,7 +15,7 @@ import {
     DrawerHeader,
     DrawerTitle,
     DrawerTrigger,
-} from "@/components/ui/drawer"
+} from ".././Components/ui/drawer"
 
 const Aboutus = () => {
     const data = [
